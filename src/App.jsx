@@ -455,7 +455,7 @@ const PillarBadge = ({ pillarId, size = 'sm' }) => {
 
 const Step1Brainstorm = ({ projects, setProjects }) => {
   const [newProject, setNewProject] = useState('');
-  const [showSuggestions, setShowSuggestions] = useState(true);
+  const [showSuggestions, setShowSuggestions] = useState(false);
   const [filterPillar, setFilterPillar] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [expandedRationale, setExpandedRationale] = useState(null);
